@@ -1,1 +1,74 @@
-# 3d-rendering-engine
+# Java 3D Graphics Engine
+
+## Description
+
+This is a simple 3D graphics engine implemented in Java. It uses basic rendering techniques to display 3D triangles on a 2D canvas, with controls for horizontal and vertical rotation. The engine demonstrates the use of basic 3D transformations and shading techniques.
+
+## Features
+
+- **3D Rendering**: Renders 3D triangles with basic shading.
+- **Rotation Controls**: Adjust horizontal and vertical rotation using sliders.
+- **Shading**: Applies basic shading based on the angle of the triangle normal.
+
+## Project Structure
+
+- `Engine.java`: The main class that sets up the GUI, handles rendering, and controls the application.
+- `Vertex.java`: Defines a vertex with 3D coordinates.
+- `Triangle.java`: Defines a triangle using three vertices and a color.
+- `Matrix3.java`: Provides methods for 3x3 matrix transformations and multiplication.
+
+## Getting Started
+
+### Prerequisites
+
+- JDK 8 or higher
+- Any Java IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor with command line tools
+
+### Building and Running
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/your-repository.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd your-repository
+    ```
+
+3. **Compile the Java files:**
+
+    ```bash
+    javac -d bin src/*.java
+    ```
+
+4. **Run the application:**
+
+    ```bash
+    java -cp bin Engine
+    ```
+
+## Usage
+
+- **Rotation Controls**: Use the horizontal slider to adjust the heading (yaw) and the vertical slider to adjust the pitch.
+- **Rendering**: The rendered 3D triangles will be displayed in the central panel.
+
+## Customization
+
+- **Background Color**: Modify the `paintComponent` method in `Engine.java` to change the background color of the frame.
+- **Triangle Data**: Update the `tris` list in `Engine.java` to render different sets of triangles.
+
+## Contributing
+
+Feel free to submit issues or pull requests. Please follow the project's coding standards and guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [Java Swing Documentation](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html) for GUI components.
+- [Java 2D API Documentation](https://docs.oracle.com/javase/8/docs/api/java/awt/Graphics2D.html) for rendering and graphics operations.
