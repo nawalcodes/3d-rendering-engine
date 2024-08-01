@@ -2,13 +2,14 @@
 
 ## Description
 
-Below is a simple 3D graphics engine implemented in Java. It uses basic rendering techniques, such as orthographic projection, simple triangle rasterization, z-buffering and flat shading, to display a 3D object on a 2D canvas, with controls for horizontal and vertical rotation. The engine demonstrates the use of basic three-dimensional transformations and shading techniques.
+Below is a simple 3D graphics engine implemented in Java. It uses basic rendering techniques, such as orthographic projection, simple triangle rasterization, z-buffering and flat shading, to display a 3D object on a 2D canvas, with controls for horizontal and vertical rotation and zooming in and out to examine the object more closely. The engine demonstrates the use of basic three-dimensional transformations and shading techniques.
 
 ## Features
 
 - **3D Rendering**: Renders a 3D cube with basic flat shading.
 - **Rotation Controls**: Adjust horizontal and vertical rotation using sliders.
 - **Shading**: Applies basic shading based on the angle of the normal.
+- **Magnification**: Zooms in and out of the object using buttons. 
 
 ## Project Structure
 
@@ -53,12 +54,12 @@ Below is a simple 3D graphics engine implemented in Java. It uses basic renderin
 ## Usage
 
 - **Rotation Controls**: Use the horizontal slider to adjust the heading (yaw) and the vertical slider to adjust the pitch.
-- **Rendering**: The rendered 3D triangles will be displayed in the central panel.
+- **Rendering**: The rendered 3D shapes will be displayed in the central panel.
 
 ## Customization
 
-- **Background Color**: Modify the `paintComponent` method in `Engine.java` to change the background color of the frame.
-- **Triangle Data**: Update the `tris` list in `Engine.java` to render different sets of triangles.
+- **Background Color**: Modify the `paintComponent` method in `Renderer.java` to change the background color of the frame.
+- **Triangle Data**: Update the `square` list in `Renderer.java` to render different sets of squares.
 
 ## Contributing
 
