@@ -47,7 +47,7 @@ Below is a simple 3D graphics engine implemented in Java. It uses basic renderin
 4. **Run the application:**
 
     ```bash
-    java -cp bin Engine
+    java -cp bin Renderer
     ```
 
 ## Usage
