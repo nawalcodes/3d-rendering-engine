@@ -59,7 +59,7 @@ Below is a simple 3D graphics engine implemented in Java. It uses basic renderin
 ## Customization
 
 - **Background Color**: Modify the `paintComponent` method in `Renderer.java` to change the background color of the frame.
-- **Triangle Data**: Update the `square` list in `Renderer.java` to render different sets of squares.
+- **Square Data**: Update the `square` list in `Renderer.java` to render different sets of squares.
 
 ## Contributing
 
