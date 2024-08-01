@@ -1,20 +1,20 @@
-# Java 3D Graphics Engine
+# 3D Graphics Engine with Java
 
 ## Description
 
-This is a simple 3D graphics engine implemented in Java. It uses basic rendering techniques to display 3D triangles on a 2D canvas, with controls for horizontal and vertical rotation. The engine demonstrates the use of basic 3D transformations and shading techniques.
+Below is a simple 3D graphics engine implemented in Java. It uses basic rendering techniques, such as orthographic projection, simple triangle rasterization, z-buffering and flat shading, to display a 3D object on a 2D canvas, with controls for horizontal and vertical rotation. The engine demonstrates the use of basic three-dimensional transformations and shading techniques.
 
 ## Features
 
-- **3D Rendering**: Renders 3D triangles with basic shading.
+- **3D Rendering**: Renders a 3D cube with basic flat shading.
 - **Rotation Controls**: Adjust horizontal and vertical rotation using sliders.
-- **Shading**: Applies basic shading based on the angle of the triangle normal.
+- **Shading**: Applies basic shading based on the angle of the normal.
 
 ## Project Structure
 
-- `Engine.java`: The main class that sets up the GUI, handles rendering, and controls the application.
+- `Renderer.java`: The main class that sets up the GUI, handles rendering, and controls the application.
 - `Vertex.java`: Defines a vertex with 3D coordinates.
-- `Triangle.java`: Defines a triangle using three vertices and a color.
+- `Square.java`: Defines a square using four vertices and a specified color.
 - `Matrix3.java`: Provides methods for 3x3 matrix transformations and multiplication.
 
 ## Getting Started
@@ -72,3 +72,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Java Swing Documentation](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html) for GUI components.
 - [Java 2D API Documentation](https://docs.oracle.com/javase/8/docs/api/java/awt/Graphics2D.html) for rendering and graphics operations.
+- [This blog post](http://blog.rogach.org/2015/08/how-to-create-your-own-simple-3d-render.html) for explaining the basics of 3D rendering techniques. 
